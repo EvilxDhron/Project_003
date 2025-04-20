@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(58, 55, 55);
+    text-align: center;
+    padding-top: 20px;
+
+    h1{
+        color: white;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: .5px solid rgb(163, 161, 161);
+
+
+    a{
+        font-weight: 800;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 235, 235);
+    display: flex;
+}
+
+#section1{
+    height: 100%;
+    width: 20%;
+    padding: 20px;
+
+
+    h3{
+        font-weight: 800;
+    }
+
+
+    h4{
+        margin: 20px 0;
+        color: gray;
+        /* font-weight: 300; */
+    }
+}
+
+#section2{
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+
+
+    ul{
+        margin-left: 50px;
+    }
+}
+
+#image_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#imgdiv1{
+    height: 450px;
+    width: 300px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1674327105076-36c4419864cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+}
+
+#imgdiv2{
+    height: 450px;
+    width: 300px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1669687924859-f04cf02a12c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE3fHxjb2ZmZWUlMjBsYWR5fGVufDB8fDB8fHww);
+    background-size: cover;
+}
+
+#imgdiv3{
+    height: 450px;
+    width: 300px;
+    background-image: url(https://images.unsplash.com/photo-1510972527921-ce03766a1cf1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(58, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+        color: white;
+        text-align: center;
+    }
+}
